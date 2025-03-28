@@ -35,6 +35,12 @@ public class Program {
 		Seller s = new Seller(null, "RenanPlay", "caveira@gmail.com", new Date(), 3121.12, department);
 		sellerDao.insert(s);
 		System.out.println("Inserido! Novo Id = " + s.getId());
+
+		System.out.println("\n===== TESTE 5: Seller update =====");
+		seller = sellerDao.findById(10);  // Pegamos o obj 10 (renan) e guardamos nesse obj atualizando
+		seller.setName("Sheipado");  // Mudamos nomes
+		sellerDao.update(seller);  // Fara update de todos os dados
+		System.out.println("Atualizacao completa");
 		
 	}
 

@@ -117,3 +117,9 @@ O projeto segue o padrão Data Access Object (DAO), organizando o código para s
 Testes foram realizados em uma classe principal para validar as operações CRUD e verificar a consistência das transações.
 
 ---
+
+---
+
+### Sobre o Desenvolvedor
+
+Este projeto foi desenvolvido por [Gustavo Pereira Brum](https://www.linkedin.com/in/gustavo-pereira-brum-42671b241/), estudante de Engenharia de Software, entusiasta de Java e apaixonado por desenvolvimento backend.
